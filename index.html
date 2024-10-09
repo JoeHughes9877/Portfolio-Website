@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Template.com</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Link to Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Nav bar (Header) -->
+    <header>
+      <nav class="navBar sectionContent">
+        <a href="#" class="navLogo">
+          <h2 class="logoText">🎲 Lorem Upsum</h2>
+        </a>
+        <ul class="navMenu">
+          <button id="menuCloseButton" class="fas fa-times"></button>
+          <li class="navItem">
+            <a href="#home" class="navLink">Home</a>
+          </li>
+          <li class="navItem">
+            <a href="#about" class="navLink">About</a>
+          </li>
+          <li class="navItem">
+            <a href="#gallery" class="navLink">Gallery</a>
+          </li>
+          <li class="navItem">
+            <a href="#contact" class="navLink">Contact</a>
+          </li>
+        </ul>
+        <button id="menuOpenButton" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="heroSection">
+        <div class="sectionContent">
+          <div class="heroDetails">
+            <h2 class="title">Lorem Ipsum</h2>
+            <h3 class="subTitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+            <div class="buttons">
+              <a href="" class="button buyNow">Order Now</a>
+              <a href="" class="button contact">Contact us</a>
+            </div>
+          </div>
+          <div class="heroImageWrap">
+            <img src="images/image1.jpg" alt="" class="photo" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="aboutSection">
+        <div class="sectionContent">
+          <div class="aboutImageWrap">
+            <img src="images/image3.jpg" alt="About Us" class="aboutImage" />
+          </div>
+          <div class="aboutDetails">
+            <h2 class="sectionTitle">About us</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Conubia gravida commodo torquent adipiscing inceptos hac.
+            </p>
+            <div class="socialLinkList">
+              <a href="#" class="socialLink">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="socialLink">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="socialLink">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallerySection">
+        <h2 class="sectionTitle">Gallery</h2>
+        <div class="sectionContent">
+          <ul class="galleryList">
+            <li class="galleryItem">
+              <img src="images/image4.jpg" alt="gallery" class="galleryImage" />
+            </li>
+            <li class="galleryItem">
+              <img src="images/image4.jpg" alt="gallery" class="galleryImage" />
+            </li>
+            <li class="galleryItem">
+              <img src="images/image4.jpg" alt="gallery" class="galleryImage" />
+            </li>
+            <li class="galleryItem">
+              <img src="images/image4.jpg" alt="gallery" class="galleryImage" />
+            </li>
+            <li class="galleryItem">
+              <img src="images/image4.jpg" alt="gallery" class="galleryImage" />
+            </li>
+            <li class="galleryItem">
+              <img src="images/image4.jpg" alt="gallery" class="galleryImage" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contactSection">
+        <h2 class="sectionTitle">Contact us</h2>
+        <div class="sectionContent">
+          <div class="contactInfoWrapper">
+            <ul class="contentInfoList">
+              <li class="contactInfo">
+                <i class="fa-solid fa-envelope"></i>
+                <p>Example@gmail.com</p>
+              </li>
+              <li class="contactInfo">
+                <i class="fa-solid fa-phone"></i>
+                <p>07886 320996</p>
+              </li>
+              <li class="contactInfo">
+                <i class="fa-solid fa-globe"></i>
+                <p>WebsiteExample.com</p>
+              </li>
+              <li class="contactInfo">
+                <i class="fa-solid fa-house-chimney"></i>
+                <p>152 Eve Cresent Road</p>
+              </li>
+            </ul>
+          </div>
+          <div class="formWrapper">
+            <form>
+              <label for="uname"><b>Name</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required />
+
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Enter Email" name="email" required />
+
+              <label for="message"><b>Message</b></label>
+              <textarea placeholder="Enter your message" name="message" required></textarea>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
