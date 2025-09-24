@@ -1,28 +1,25 @@
-# Dice Image Display Website
+# Portfolio Website
 
-A simple webpage that displays dice images. Built as a learning project to practice basic HTML, CSS, and JavaScript.
+A simple personal webpage to showcase my projects and serve as an online CV.
 
 ## Project Overview
 
-This project shows dice images on a webpage. It’s a minimal site created to get comfortable with web development fundamentals.
+This project provides a centralized place to display my personal projects, including interactive demos and visual examples.
 
 ## Features
 
-- Displays dice images using HTML and CSS
-- Simple layout with basic styling
-- JavaScript used to change or animate dice images
+- Display dice images using HTML and CSS
+- Simple, clean layout with responsive styling
+- JavaScript for interactivity and animations
 
 ## Purpose
 
-To learn how to:
+This project helped me learn and practice:
 
-- Structure a webpage using HTML
-- Style elements with CSS
-- Add simple interactivity with JavaScript
-
-## How to Use
-
-Open the `index.html` file in any modern browser to see the dice images displayed.
+- Structuring a webpage using HTML
+- Styling elements with CSS
+- Adding simple interactivity with JavaScript
+- Creating a centralized space to showcase all my projects
 
 ## Technologies Used
 
