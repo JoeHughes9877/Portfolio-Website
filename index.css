@@ -499,11 +499,7 @@ button:hover {
     justify-content: center;
   }
 
-  .heroSection
-    .heroDetails
-    :is(.subtitle, .description)
-    .aboutSection
-    .aboutDetails {
+  .heroSection .heroDetails :is(.subtitle, .description) .aboutSection .aboutDetails {
     max-width: 100%;
   }
 
@@ -529,24 +525,5 @@ button:hover {
 
   .projectSection .projectItem {
     width: calc(50% - 16px);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .projectSection .projectItem {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .gallerySection .galleryList .galleryItem {
-    width: 10%;
-  }
-}
-
-@media screen and (min-width: 901px) {
-  .navBar #menuCloseButton,
-  .navBar #menuOpenButton {
-    display: none;
   }
 }
