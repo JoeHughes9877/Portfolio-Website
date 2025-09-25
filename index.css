@@ -342,7 +342,7 @@ header .navBar {
 /* Contact section */
 .contactSection {
   padding: 50px 0 100px;
-  background: var(--lightGreyColor);
+  background: var(--darkGreyColor);
 }
 
 .contactSection .sectionContent {
