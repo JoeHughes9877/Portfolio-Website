@@ -13,7 +13,7 @@
   --darkColour: #252525;
   --primaryColour: #000000;
   --secondaryColour: #7b0000;
-  --darkGreyColor: #7a7476;
+  --lightGreyColor: #c9c3c4;
   --mediumGreyColor: #ccc;
 
   --fontSizeS: 0.9rem;
@@ -342,7 +342,7 @@ header .navBar {
 /* Contact section */
 .contactSection {
   padding: 50px 0 100px;
-  background: var(--darkGreyColor);
+  background: var(--lightGreyColor);
 }
 
 .contactSection .sectionContent {
@@ -525,5 +525,25 @@ button:hover {
 
   .projectSection .projectItem {
     width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projectSection .projectItem {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .gallerySection .galleryList .galleryItem {
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 901px) {
+
+  .navBar #menuCloseButton,
+  .navBar #menuOpenButton {
+    display: none;
   }
 }
